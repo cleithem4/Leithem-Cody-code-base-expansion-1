@@ -341,8 +341,9 @@ func _update_nanogame_available_buttons() -> void:
 
 	var nanogames_available := %NanogamesAvailable as GridContainer
 	for i: Node in nanogames_available.get_children():
-		if i.has_focus() or i.does_about_button_has_focus():
-			had_focus = true
+		if i.has_method("does_about_button_has_focus"):
+			if i.has_focus() or i.does_about_button_has_focus():
+				had_focus = true
 
 		nanogames_available.remove_child(i)
 		i.queue_free()

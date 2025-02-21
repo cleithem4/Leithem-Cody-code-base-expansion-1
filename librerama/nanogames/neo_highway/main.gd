@@ -85,6 +85,8 @@ func _spawn_enemy() -> void:
 	(%WarningAnchor/Alarm as AudioStreamPlayer2D).play()
 
 	($EnemySpawn as Timer).start()
+	($EnemySpawn as Timer).wait_time = 2
+	
 
 
 func _on_driver_hit() -> void:

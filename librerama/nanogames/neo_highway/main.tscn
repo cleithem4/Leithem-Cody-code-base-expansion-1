@@ -268,7 +268,7 @@ color = Color(1, 1, 1, 0)
 metadata/_edit_lock_ = true
 
 [node name="EnemySpawn" type="Timer" parent="."]
-wait_time = 0.8
+wait_time = 1.5
 one_shot = true
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
