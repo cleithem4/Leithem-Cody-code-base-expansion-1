@@ -31,19 +31,19 @@ certain extent.
 - Nanogames:
   - Gravity Shift: Improve particles on robot destruction.
   - Punchbag Wallop:
-    - Make all punching bags break at the same quantity of hits (6), each
-    swinging away increasingly more according with the difficulty.
-    - Add an indicator for how many hits are left for the bag to break. To
-    avoid inferring that mashing is necessary.
-    - Make the boxer translucent when missing a punch.
+	- Make all punching bags break at the same quantity of hits (6), each
+	swinging away increasingly more according with the difficulty.
+	- Add an indicator for how many hits are left for the bag to break. To
+	avoid inferring that mashing is necessary.
+	- Make the boxer translucent when missing a punch.
   - Rope Hop:
-    - Add arrows to hint that the player can move while jumping.
-    - Lower the volume level of enemy jumps.
+	- Add arrows to hint that the player can move while jumping.
+	- Lower the volume level of enemy jumps.
   - Thing Factory: Make destruction particles have the same color as the thing
   they came from.
   - Void Avoider:
-    - Limit width of playable area to a fixed size.
-    - Make black holes reach top speed gradually instead of immediately.
+	- Limit width of playable area to a fixed size.
+	- Make black holes reach top speed gradually instead of immediately.
 - Make focused state of volume sliders clearer.
 
 ### Fixed

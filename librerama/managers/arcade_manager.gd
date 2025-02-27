@@ -37,7 +37,7 @@ const BEST_SCORES_SIZE_MAX = 6
 const PRIZES_UNLOCK_NANOGAME_QUANTITY = 18
 const THEMES_UNLOCK_NANOGAME_QUANTITY = PRIZES_UNLOCK_NANOGAME_QUANTITY * 2
 
-var tickets := 0: set = set_tickets
+var tickets :=0: set = set_tickets
 
 var community_mode := false: set = set_community_mode
 
